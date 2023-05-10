@@ -1,0 +1,72 @@
+.banner {
+    text-align: center;
+}
+
+.banner__titulo {
+    display: inline;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho);
+    background: #8E242410;
+    border-radius: 16px;
+    padding: 0.2em 0.7em;
+}
+
+.banner__subtitulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    padding: 1em 0;
+}
+
+.banner__texto {
+    font-size: 20px;
+    color: var(--cinza-claro);
+}
+
+.banner__imagem {
+    padding: 4em 7em;
+}
+
+.secao-vagas {
+    padding: 0 35em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.vagas-titulo {
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    padding-bottom: 1em;
+}
+
+.vagas__cards {
+    border: 1px solid var(--branco-bordas);
+    border-radius: 16px;
+    text-align: left;
+    padding: 1.5em 1.5em;
+}
+
+.titulo-vaga {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    padding-bottom: 2em;
+}
+
+.vagas-informacoes {
+    font-weight: 500;
+    color: var(--cinza-claro);
+    display: flex;
+    gap: 3em;
+}
